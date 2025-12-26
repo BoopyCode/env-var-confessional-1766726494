@@ -1,0 +1,15 @@
+{
+  "name": "env-confessional",
+  "version": "1.0.0",
+  "description": "Interrogates environment variables before they sin in production",
+  "main": "env-confessional.js",
+  "scripts": {
+    "test": "node env-confessional.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "bin": {
+    "env-confess": "./env-confessional.js"
+  }
+}
